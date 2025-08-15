@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    { "source": "/login", "destination": "/api/login" },
+    { "source": "/logout", "destination": "/api/logout" },
+    { "source": "/me", "destination": "/api/me" },
+    { "source": "/links", "destination": "/api/links" },
+    { "source": "/add-link", "destination": "/api/add-link" },
+    { "source": "/delete-link/:index", "destination": "/api/delete-link/:index" },
+    { "source": "/login-history", "destination": "/api/login-history" },
+    { "source": "/history-cred", "destination": "/api/history-cred" },
+    { "source": "/history-health", "destination": "/api/history-health" },
+    { "source": "/history-token", "destination": "/api/history-token" },
+    { "source": "/db-health", "destination": "/api/db-health" }
+  ]
+} 
